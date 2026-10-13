@@ -1,0 +1,92 @@
+{
+  "model_type": "KMeans Clustering",
+  "k_clusters": 4,
+  "features": [
+    "monthly_income",
+    "credit_score",
+    "total_balance",
+    "total_txn_count",
+    "total_txn_amount",
+    "digital_engagement_score"
+  ],
+  "training_samples": 150000,
+  "inertia": 466787.8,
+  "silhouette_score": 0.2426,
+  "davies_bouldin_index": 1.2573,
+  "centroids": [
+    {
+      "monthly_income": 39185.13214579525,
+      "credit_score": 615.906854926716,
+      "total_balance": 39972.100520961336,
+      "total_txn_count": 10.626227691687655,
+      "total_txn_amount": 220577.26099077845,
+      "digital_engagement_score": 2.405654517065965,
+      "Cluster_ID": 0,
+      "Customer_Count": 59621,
+      "Population_Share": 39.74733333333334,
+      "Persona_Name": "Mass Retail & Emerging Savers"
+    },
+    {
+      "monthly_income": 71927.241017373,
+      "credit_score": 697.7032113714135,
+      "total_balance": 119015.17845748886,
+      "total_txn_count": 38.30014477494069,
+      "total_txn_amount": 2669893.75159256,
+      "digital_engagement_score": 2.9726243748354833,
+      "Cluster_ID": 1,
+      "Customer_Count": 30421,
+      "Population_Share": 20.280666666666665,
+      "Persona_Name": "High-Velocity Spenders"
+    },
+    {
+      "monthly_income": 288644.3482695202,
+      "credit_score": 800.1259822772112,
+      "total_balance": 704350.120484869,
+      "total_txn_count": 19.73340578498579,
+      "total_txn_amount": 3174243.7621345785,
+      "digital_engagement_score": 3.4006019060357833,
+      "Cluster_ID": 2,
+      "Customer_Count": 11952,
+      "Population_Share": 7.968,
+      "Persona_Name": "Ultra High-Net-Worth (HNW) Commercial"
+    },
+    {
+      "monthly_income": 93979.4534658819,
+      "credit_score": 739.7695651269679,
+      "total_balance": 142657.49582076826,
+      "total_txn_count": 10.715096811762926,
+      "total_txn_amount": 363884.07290607516,
+      "digital_engagement_score": 3.500759104049265,
+      "Cluster_ID": 3,
+      "Customer_Count": 48006,
+      "Population_Share": 32.004,
+      "Persona_Name": "Digital Middle-Market Savers"
+    }
+  ],
+  "personas": {
+    "0": {
+      "name": "Mass Retail & Emerging Savers",
+      "description": "Lower-to-middle income, moderate credit score, lower spend and balance. Requires assisted digital onboarding and low-fee micro-savings products.",
+      "risk_tier": "Medium Risk",
+      "primary_channel": "Branch & ATM"
+    },
+    "1": {
+      "name": "High-Velocity Spenders",
+      "description": "Middle-to-upper income with exceptionally high transaction frequency and card spending. High interchange revenue drivers needing premier cashback/rewards.",
+      "risk_tier": "Low-to-Medium Risk",
+      "primary_channel": "POS & Online"
+    },
+    "2": {
+      "name": "Ultra High-Net-Worth (HNW) Commercial",
+      "description": "Top-tier monthly income and credit score with massive deposit reserves ($3M+ spend/balance). Core funding source requiring dedicated wealth advisory sweeps.",
+      "risk_tier": "Low Risk",
+      "primary_channel": "Omnichannel / Wealth RM"
+    },
+    "3": {
+      "name": "Digital Middle-Market Savers",
+      "description": "Solid professional income, high credit rating, strong balances, and the highest digital engagement score (3.5/4.0). Prime candidates for digital personal loans and mutual funds.",
+      "risk_tier": "Low Risk",
+      "primary_channel": "Mobile App First"
+    }
+  }
+}

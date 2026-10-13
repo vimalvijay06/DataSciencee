@@ -1,0 +1,213 @@
+{
+  "segments": [
+    {
+      "customer_segment": "Loyal",
+      "count": 45134,
+      "avg_income": 83539.09327779501,
+      "avg_credit_score": 694.5850799840475,
+      "digital_users": 34007
+    },
+    {
+      "customer_segment": "New",
+      "count": 10277,
+      "avg_income": 44158.609711005156,
+      "avg_credit_score": 626.9171937335799,
+      "digital_users": 7166
+    },
+    {
+      "customer_segment": "Premium",
+      "count": 33196,
+      "avg_income": 166601.2414748765,
+      "avg_credit_score": 776.7273767923846,
+      "digital_users": 31335
+    },
+    {
+      "customer_segment": "Regular",
+      "count": 61393,
+      "avg_income": 44578.50585571645,
+      "avg_credit_score": 642.660075252879,
+      "digital_users": 42793
+    }
+  ],
+  "age_bands": [
+    {
+      "age_band": "18-25",
+      "count": 21216,
+      "avg_income": 56436.25702300151,
+      "avg_credit_score": 648.8845682503771
+    },
+    {
+      "age_band": "26-35",
+      "count": 35735,
+      "avg_income": 88168.67818665174,
+      "avg_credit_score": 693.7175038477683
+    },
+    {
+      "age_band": "36-45",
+      "count": 44689,
+      "avg_income": 88293.95383651459,
+      "avg_credit_score": 693.6815547450155
+    },
+    {
+      "age_band": "46-55",
+      "count": 32101,
+      "avg_income": 87455.50957914084,
+      "avg_credit_score": 693.6968941777515
+    },
+    {
+      "age_band": "56-65",
+      "count": 12823,
+      "avg_income": 86046.65772440146,
+      "avg_credit_score": 689.8747562972783
+    },
+    {
+      "age_band": "65+",
+      "count": 3436,
+      "avg_income": 83516.01804423748,
+      "avg_credit_score": 686.848079161816
+    }
+  ],
+  "accounts": [
+    {
+      "account_type": "Credit",
+      "count": 30871,
+      "active_count": 29169,
+      "total_balance": 3882079174.97,
+      "avg_balance": 125751.64960545495,
+      "avg_monthly_bal": 126108.02832302162,
+      "total_interest": 0.0
+    },
+    {
+      "account_type": "Current",
+      "count": 81867,
+      "active_count": 77684,
+      "total_balance": 9125404877.45,
+      "avg_balance": 111466.2181031429,
+      "avg_monthly_bal": 111241.97338060512,
+      "total_interest": 45530821.46
+    },
+    {
+      "account_type": "Savings",
+      "count": 127262,
+      "active_count": 120958,
+      "total_balance": 9301272716.04,
+      "avg_balance": 73087.58872279235,
+      "avg_monthly_bal": 73054.67480803381,
+      "total_interest": 325230338.82
+    }
+  ],
+  "balance_stats": {
+    "count": 240000,
+    "mean": 92953.15320191666,
+    "median": 40588.945,
+    "std": 141243.76509137574,
+    "min": 703.88,
+    "max": 3393635.52,
+    "q1": 19693.8275,
+    "q3": 104230.45749999999,
+    "iqr": 84536.62999999999
+  },
+  "complaints_by_type": [
+    {
+      "complaint_type": "ATM / Card Issue",
+      "count": 1859,
+      "avg_res_days": 10.073643410852712
+    },
+    {
+      "complaint_type": "Account Issue",
+      "count": 1236,
+      "avg_res_days": 9.952007835455436
+    },
+    {
+      "complaint_type": "Fraud / Unauthorized Transaction",
+      "count": 2552,
+      "avg_res_days": 10.38732993197279
+    },
+    {
+      "complaint_type": "Loan / EMI Issue",
+      "count": 996,
+      "avg_res_days": 10.067535545023697
+    },
+    {
+      "complaint_type": "Other",
+      "count": 807,
+      "avg_res_days": 10.205580029368576
+    },
+    {
+      "complaint_type": "Service Quality",
+      "count": 2086,
+      "avg_res_days": 10.270501138952165
+    },
+    {
+      "complaint_type": "Transaction Dispute",
+      "count": 2016,
+      "avg_res_days": 10.104739613809246
+    }
+  ],
+  "complaints_by_channel": [
+    {
+      "channel": "Branch",
+      "count": 1495,
+      "avg_res_days": 9.992205767731878
+    },
+    {
+      "channel": "Email",
+      "count": 2356,
+      "avg_res_days": 10.195146111936602
+    },
+    {
+      "channel": "Mobile App",
+      "count": 3809,
+      "avg_res_days": 10.05541947336191
+    },
+    {
+      "channel": "Phone",
+      "count": 2368,
+      "avg_res_days": 10.331688055281342
+    },
+    {
+      "channel": "Website",
+      "count": 1524,
+      "avg_res_days": 10.447987851176917
+    }
+  ],
+  "complaints_by_status": [
+    {
+      "status": "Escalated",
+      "count": 427,
+      "avg_res_days": NaN
+    },
+    {
+      "status": "In Progress",
+      "count": 823,
+      "avg_res_days": NaN
+    },
+    {
+      "status": "Open",
+      "count": 391,
+      "avg_res_days": NaN
+    },
+    {
+      "status": "Resolved",
+      "count": 9911,
+      "avg_res_days": 10.184340631621431
+    }
+  ],
+  "complaints_by_priority": [
+    {
+      "priority": "High",
+      "count": 2552,
+      "avg_res_days": 10.38732993197279
+    },
+    {
+      "priority": "Low",
+      "count": 3659,
+      "avg_res_days": 10.160953313744695
+    },
+    {
+      "priority": "Medium",
+      "count": 5341,
+      "avg_res_days": 10.09408362989324
+    }
+  ]
+}

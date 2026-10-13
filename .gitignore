@@ -1,0 +1,23 @@
+# Python & Environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.ipynb_checkpoints/
+.env
+venv/
+env/
+
+# Temp files & Excel locks
+~$*
+*.tmp
+temp_nb6.txt
+
+# Exclude giant CSV files over 100MB so git push is fast and never blocked by GitHub
+*.csv
+!Round_2_Excel_Analysis/01_Data/Cleaned_CSV_Files/*.csv
+!Round_3/Data/*.csv
+!Intelligence_Dashboard/data_cache/trustwave_customer_clusters.csv
+
+# Exclude duplicate folders
+Round_1_EDA_Feature_Engineering/Data/
+Round_1_EDA_Feature_Engineering/Notebooks/Data/

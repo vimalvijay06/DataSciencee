@@ -1,0 +1,26 @@
+branch_id,branch_name,city,state,region,zone,latitude,longitude,manager_name,employee_count,atm_count,opening_year
+BR0001,Delhi Branch 1,Delhi,Delhi,North,Zone A,28.7149,77.0696,Allison Hill,25,3,2019
+BR0002,Chandigarh Branch 1,Chandigarh,Punjab,North,Zone A,30.7799,76.8102,Noah Rhodes,18,3,2015
+BR0003,Lucknow Branch 1,Lucknow,Uttar Pradesh,North,Zone A,26.8198,80.9203,Angie Henderson,29,3,2006
+BR0004,Jaipur Branch 1,Jaipur,Rajasthan,North,Zone A,26.9119,75.7407,Daniel Wagner,41,5,2012
+BR0005,Bangalore Branch 1,Bangalore,Karnataka,South,Zone B,12.9879,77.5758,Cristian Santos,18,3,2016
+BR0006,Chennai Branch 1,Chennai,Tamil Nadu,South,Zone B,13.0358,80.3049,Connie Lawrence,20,3,2004
+BR0007,Hyderabad Branch 1,Hyderabad,Telangana,South,Zone B,17.4245,78.4965,Abigail Shaffer,46,5,2002
+BR0008,Kochi Branch 1,Kochi,Kerala,South,Zone B,9.9657,76.292,Gina Moore,31,4,2020
+BR0009,Mumbai Branch 1,Mumbai,Maharashtra,West,Zone C,19.1225,72.8884,Gabrielle Davis,19,2,2009
+BR0010,Pune Branch 1,Pune,Maharashtra,West,Zone C,18.4869,73.8083,Ryan Munoz,24,4,1995
+BR0011,Ahmedabad Branch 1,Ahmedabad,Gujarat,West,Zone C,22.9924,72.522,Monica Herrera,17,2,2011
+BR0012,Surat Branch 1,Surat,Gujarat,West,Zone C,21.1913,72.8601,Jamie Arnold,17,2,2004
+BR0013,Kolkata Branch 1,Kolkata,West Bengal,East,Zone D,22.5584,88.3255,Lisa Hensley,21,3,2006
+BR0014,Patna Branch 1,Patna,Bihar,East,Zone D,25.5772,85.094,Michele Williams,13,1,2006
+BR0015,Bhubaneswar Branch 1,Bhubaneswar,Odisha,East,Zone D,20.3099,85.8632,Dylan Miller,10,1,1999
+BR0016,Guwahati Branch 1,Guwahati,Assam,East,Zone D,26.1917,91.7711,Brian Ramirez,19,2,2017
+BR0017,Delhi Branch 2,Delhi,Delhi,North,Zone A,28.7312,77.1019,Holly Wood,12,1,2009
+BR0018,Chandigarh Branch 2,Chandigarh,Punjab,North,Zone A,30.6944,76.7733,Derek Zuniga,24,2,2001
+BR0019,Lucknow Branch 2,Lucknow,Uttar Pradesh,North,Zone A,26.8442,80.9525,Lisa Jackson,16,2,1999
+BR0020,Jaipur Branch 2,Jaipur,Rajasthan,North,Zone A,26.8873,75.7783,Carla Gray,13,1,1998
+BR0021,Bangalore Branch 2,Bangalore,Karnataka,South,Zone B,13.0159,77.6045,Margaret Hawkins DDS,42,5,1996
+BR0022,Chennai Branch 2,Chennai,Tamil Nadu,South,Zone B,13.0951,80.2503,Patty Perez,21,3,2006
+BR0023,Hyderabad Branch 2,Hyderabad,Telangana,South,Zone B,17.3537,78.526,Ethan Adams,21,3,2020
+BR0024,Kochi Branch 2,Kochi,Kerala,South,Zone B,9.8934,76.2529,Tommy Walter,11,1,2019
+BR0025,Mumbai Branch 2,Mumbai,Maharashtra,West,Zone C,19.0908,72.8278,Matthew Foster,19,2,1997

@@ -1,0 +1,17 @@
+Metric_Area,Metric,Value,Share,Note
+Channel Usage,Bank Transfer Volume,"1,334,661",52.4%,Dominant automated volume
+Channel Usage,Online Banking Volume,"432,217",17.0%,"Harbors >70% of online fraud (2,110 cases)"
+Channel Usage,POS Merchant Volume,"373,256",14.6%,Physical card terminal volume
+Channel Usage,Mobile App Volume,"198,714",7.8%,68.5% adoption in 18-35 age cohort
+Channel Usage,ATM Cash Volume,"183,885",7.2%,Senior reliance touchpoint
+Customer Segments,Regular Retail Segment,"67,800",45.2%,Avg Balance .2K; 56.8% digital adoption
+Customer Segments,Loyal Segment,"42,150",28.1%,Avg Balance .4K; 84.3% digital adoption
+Customer Segments,New Segment,"21,450",14.3%,Avg Balance .1K; 61.2% digital adoption
+Customer Segments,Premium Segment,"18,600",12.4%,Avg Balance .5K; 92.1% digital adoption
+Account Balances,Portfolio Mean Balance,",953.15",N/A,Arithmetic parametric average
+Account Balances,Portfolio Median Balance,",588.95",N/A,Non-parametric median (Q2)
+Account Balances,Upper Quartile Threshold (Q3),",230.46",N/A,Top 25% account balance cutoff
+Complaints & SLAs,Total Recorded Complaints,"11,552",100.0%,88.4% overall resolution rate
+Complaints & SLAs,ATM & Card Issues,"2,865",24.8%,Top grievance driver
+Complaints & SLAs,Transaction Disputes,"2,450",21.2%,Second grievance driver
+Complaints & SLAs,Fraud Dispute SLA Duration,7.6 Days,N/A,Multi-tier verification lag bottleneck
